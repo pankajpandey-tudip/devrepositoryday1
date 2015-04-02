@@ -1,0 +1,114 @@
+<html>
+<head>
+<style type="text/css">
+
+#container{
+	width:auto;
+	border:2px solid black;
+	
+}
+#first,#second{
+	
+	width:30%;
+	border:2px solid black;
+	padding:1%;
+	margin:10pt;
+	
+}
+
+#third{
+	width:100pt;
+	height:100pt;
+	border:2px solid red;
+	border-radius:50pt;
+	margin:auto;
+	align:center;
+	
+}
+.child-rect{
+	border:2px solid blue;
+	width:80pt;
+	height:50pt;
+	margin:10pt;
+			
+}
+.child-cube{
+	border:2px solid black;
+	width:50pt;
+	height:50pt;
+			
+}
+.child-circ{
+	width:50pt;
+	height:50pt;
+	border:2px solid red;
+	border-radius:25pt;
+			
+}
+.child-elipse{
+	width:80pt;
+	height:50pt;
+	border:2px solid violet;
+	border-radius:25pt;
+	margin:10pt;		
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+	
+}
+.center{
+	clear:both;
+	margin:auto;
+	align:center;
+	
+}
+</style>
+<title>Pankaj Pandey First Day</title>
+</head>
+<body> 
+	<div id="container"> 
+	
+		<div id="first" class="left">
+			<div class="child-cube left"></div>
+			<div class="child-cube right"></div>
+			<div class="child-cube center"></div>
+			<div class="child-cube left"></div>
+			<div class="child-cube right"></div>
+		
+		</div>
+		<div id="first" class="right">
+			<div class="child-circ left"></div>
+			<div class="child-circ right"></div>
+			<div class="child-circ center"></div>
+			<div class="child-circ left"></div>
+			<div class="child-circ right"></div>
+		
+		</div>
+		<div id="third" class="center">
+		</div>
+		<div id="second" class="left">
+			<div class="child-rect left"></div>
+			<div class="child-rect right"></div>
+			<div class=" center"></div>
+			<div class="child-rect left"></div>
+			<div class="child-rect right"></div>
+		
+		</div>
+		<div id="second" class="right">
+			<div class="child-elipse left"></div>
+			<div class="child-elipse right"></div>
+			<div class="child-elipse left"></div>
+			<div class="child-elipse right"></div>
+		
+		</div>
+		<div class="center">
+		</div>
+		
+		
+
+	</div>
+</body>
+</html>
